@@ -11,7 +11,7 @@ public class Instagram{
             System.out.println("2. Tambahkan Komentar");
             System.out.println("3. Share to ");
             System.out.println("4. Postingan disimpan");
-            System.out.println("5. All Coments");
+            System.out.println("5. Kirim Pesan");
             System.out.println("6. Exit");
             System.out.println("Pilih perintah : ");
     }
@@ -94,8 +94,11 @@ public class Instagram{
                                 System.out.println("Postingan disimpan");
                             }
                             case '5'->{
-                                System.out.println("All Comments: ");
-                                post[0].ShowComment();
+                                System.out.println("Direct Message: ");
+                                Scanner pesandm = new Scanner(System.in);
+                                String pesanig = pesandm.nextLine();
+
+                                System.out.println(pesanig+" terkirim ");
                             }
                             case '6'->{
                                 System.exit(3);
@@ -139,8 +142,11 @@ public class Instagram{
                                 System.out.println("Postingan disimpan");
                             }
                             case '5'->{
-                                System.out.println("All Comments: ");
-                                post[0].ShowComment();
+                                System.out.println("Direct Message: ");
+                                Scanner pesandm = new Scanner(System.in);
+                                String pesanig = pesandm.nextLine();
+
+                                System.out.println(pesanig+" terkirim ");
                             }
                             case '6'->{
                                 System.exit(3);
