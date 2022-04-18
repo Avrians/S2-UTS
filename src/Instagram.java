@@ -23,6 +23,7 @@ public class Instagram{
         post[0].Username = "@arduino.cc";
         post[0].postingan = "foto 1";
         post[0].Caption="Sayembara Membuat Poster :)";
+        post[0].pesan = "mau ikut dong";
         post[0].like =0;
         post[0].printpost();
 
@@ -36,6 +37,7 @@ public class Instagram{
         post[1].profile = "(_))";
         post[1].Username = "@Avrians313";
         post[1].postingan = "foto 2";
+        post[1].pesan = "jalan-jalan mulu";
         post[1].Caption="Jalan-jalan bersama Ayang";
         post[1].like =0;
         post[1].printpost();
